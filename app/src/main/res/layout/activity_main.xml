@@ -121,8 +121,8 @@
     <Button
         android:id="@+id/btnMap"
         style="@style/Widget.MaterialComponents.Button"
-        android:layout_width="155dp"
-        android:layout_height="47dp"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -143,8 +143,8 @@
     <Button
         android:id="@+id/btnActivity2"
         style="@style/Widget.MaterialComponents.Button"
-        android:layout_width="155dp"
-        android:layout_height="47dp"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
