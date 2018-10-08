@@ -22,7 +22,7 @@ public class Activity2 extends AppCompatActivity {
             i = new Intent(Intent.ACTION_VIEW);
             i.setData(Uri.parse("geo:46.0020966,7.7489367?z=17"));
             chooser = Intent.createChooser(i, "Select map app");
-            startActivity(i);
+            startActivity(chooser);
         }
     }
 }
