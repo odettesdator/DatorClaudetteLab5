@@ -18,9 +18,9 @@ public class Activity2 extends AppCompatActivity {
         if(v.getId() == R.id.btnActivity1){
             i = new Intent(this,MainActivity.class);
             startActivity(i);
-        } else if(v.getId() == R.id.btnMap){
+        } else if(v.getId() == R.id.btnMap2){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("https://www.google.com/maps/place/Hotel+Riffelalp,+3920+Zermatt,+Switzerland/@46.0020929,7.7489367,17z/data=!3m1!4b1!4m5!3m4!1s0x478f3594ee32c6ff:0x41d87d4b493493b0!8m2!3d46.0020929!4d7.7511254"));
+            i.setData(Uri.parse("geo:46.0020966,7.7489367?z=17"));
             chooser = Intent.createChooser(i, "Select map app");
             startActivity(i);
         }

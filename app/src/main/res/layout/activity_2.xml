@@ -136,7 +136,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/btnMap"
+        android:id="@+id/btnMap2"
         style="@style/Widget.MaterialComponents.Button"
         android:layout_width="143dp"
         android:layout_height="48dp"

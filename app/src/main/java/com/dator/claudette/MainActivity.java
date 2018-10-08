@@ -59,11 +59,11 @@ public class MainActivity extends AppCompatActivity {
         if(v.getId() == R.id.btnActivity2){
             i = new Intent(this,Activity2.class);
             startActivity(i);
-        } else if(v.getId() == R.id.btnMap){
+        } else if(v.getId() == R.id.btnMap1){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("https://www.google.com/maps/place/Hotel+The+Omnia/@14.5884358,121.0113678,13z/data=!4m7!3m6!1s0x478f35df2141df13:0x10f4370d5ae3ad96!5m1!1s2018-10-14!8m2!3d46.02044!4d7.745317"));
+            i.setData(Uri.parse("geo:46.0204437,7.7431283?z=17"));
             chooser = Intent.createChooser(i, "Select map app");
-            startActivity(i);
+            startActivity(chooser);
         }
     }
 }
